@@ -1,0 +1,46 @@
+.sidebarRow{
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  margin: 0;
+}
+
+.siderbarRow_title {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  z-index: 10;
+}
+
+.sidebardRow_icon {
+  color: #606060;
+  font-size: 20px;
+}
+
+.sidebarRow:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.sidebarRow:hover > .sidebardRow_icon{
+    color:red
+}
+
+.sidebarRow:hover > .siderbarRow_title{
+    font-weight: bold;
+}
+
+.sidebarRow.selected{
+    background-color: lightgray;
+}
+
+.sidebarRow.selected > .sidebardRow_icon{
+    color:red;
+}
+
+.sidebarRow.selected > .siderbarRow_title{
+    font-weight: bold;
+}
+
+

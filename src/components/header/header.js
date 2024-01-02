@@ -31,8 +31,6 @@ const Header = ({onChangeHandler, value}) => {
     };
   };
 
-  //let throtal = debounce(onChangeHandler,5000);
-
   return (
     <header className="header">
       <div className="header_left">
